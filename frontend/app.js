@@ -27,7 +27,7 @@ const startGame = (humanChoice)=>{
       result.innerHTML = `<h2 style = "color:green">You won</h2>`          
 	mainDiv.innerHTML = `
 	    <div><h2>You</h2><img src='https://media.giphy.com/media/icIr8rk03xQI6NS67S/giphy.gif'><h2>${humanChoice}</h2></div>
-	    <div></h2>Opponent</h2><img src='https://media.giphy.com/media/QaS3chN1PNKEqUcVKS/giphy.gif'><h2>${botChoice}</h2></div>
+	    <div><h2>Opponent</h2><img src='https://media.giphy.com/media/QaS3chN1PNKEqUcVKS/giphy.gif'><h2>${botChoice}</h2></div>
 	    `
 	}
 
